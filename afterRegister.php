@@ -43,22 +43,16 @@
                 <div class="form-container">
                     <div class="form-btn">
                         <span onclick="login()">Login</span>
-                        <span onclick="register()">Register</span>
                         <hr id="Indicator">
                     </div>
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        <input type="password" placeholder="Password">
+                    <form id="LoginForm" action="login" method="login.php">
+                        <input type="text" id="username" placeholder="Username">
+                        <input type="password" id="password" placeholder="Password">
                         <button type="submit" class="btn">Login</button>
                         <a href="">Forgot Password</a>
                     </form>
-
-                    <form id="RegForm" action="register.php" method="POST">
-                        <input type="text" name="username" placeholder="Username">
-                        <input type="email" name="email" placeholder="Email">
-                        <input type="password" name="password" placeholder="Password">
-                        <input type="submit" class="btn" value="Register" name="submit">
-                    </form>
+                    
+                   
                 </div>
             </div>
         </div>
