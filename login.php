@@ -35,23 +35,22 @@
 <!--------------------------account--------------------->
 
 <div class="hero">
-    <h1>CREATE AN ACCOUNT</h1>
+    <h1>LOGIN TO YOUR ACCOUNT</h1>
     <div class="signup-box">
         <div class="left-box">
             <form>
                 <input type="text" placeholder="Username" required class="input-box">
-                <input type="email" placeholder="Email" required class="input-box">
                 <input type="password" placeholder="Password" required class="input-box">
-                <button type="submit">REGISTER <span>&#x27f6;</span></button>
+                <button type="submit">LOGIN <span>&#x27f6;</span></button>
             </form>
         </div>
         <div class="right-box">
-            <a href="" class="fb-link"><i class="fa-brands fa-facebook-f"></i>Connect with Facebook</a>
-            <a href="" class="tw-link"><i class="fa-brands fa-twitter"></i>Connect with Twitter</a>
-            <a href="" class="g-link"><i class="fa-brands fa-google"></i>Connect with Google</a>
+            <a href="" class="fb-link"><i class="fa-brands fa-facebook-f"></i>Login with Facebook</a>
+            <a href="" class="tw-link"><i class="fa-brands fa-twitter"></i>Login with Twitter</a>
+            <a href="" class="g-link"><i class="fa-brands fa-google"></i>Login with Google</a>
         </div>
     </div>
-    <p class="login-msg">I already have an account? <a href="login.php">Login Now</a></p>
+    <p class="login-msg">Do Not have an account? <a href="Account.php">Register Now</a></p>
 </div>
 <!--------------footer------------>
 

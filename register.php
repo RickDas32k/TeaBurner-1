@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
 	$email = $_POST['email'];
 	$password = $_POST['password'];
 
-	$query = "INSERT INTO `user`(`username`, `email`, `password`) VALUES ('$username', '$email', '$password')";
+	$query = "INSERT INTO `register_info`(`username`, `email`, `password`) VALUES ('$username', '$email', '$password')";
     $iquery = mysqli_query($conn, $query);
 
 	if($iquery)
